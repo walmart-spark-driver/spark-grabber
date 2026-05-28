@@ -424,16 +424,17 @@ a {
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+
 .video-wrapper {
     width: 100%;
-    max-width: none;
-    /* allow full use of content width */
-    margin: 22px 0 0;
-    /* occupy full width of section */
+    /* use full content width and match spacing with other cards */
+    margin: 28px 0 36px;
     aspect-ratio: 16/9;
     background: #000;
-    border-radius: 8px;
+    border-radius: var(--radius);
     overflow: hidden;
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(16, 32, 39, 0.06);
 }
 
 .video-wrapper iframe {
