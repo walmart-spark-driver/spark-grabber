@@ -1,6 +1,6 @@
 # Spark Bot – What It Is, How It Works, and Where to Download
 
-🚀 Official Spark Bot Download: https://botgrabber.com/spark-bot
+🚀 Official Spark Bot Download: https://sparkgrabber.com/
 
 Spark Bot refers to third-party automation tools used with the Walmart Spark Driver app to respond to delivery offers faster than manual tapping. These tools are widely discussed in gig economy communities due to their impact on order competition and driver earnings.
 
@@ -71,7 +71,7 @@ Many drivers avoid automation and instead optimize manually by:
 
 Access Spark Bot information and APK here:
 
-👉 https://botgrabber.com/spark-bot
+👉 https://sparkgrabber.com/
 
 Includes setup details, version updates, and feature overview.
 
@@ -98,4 +98,4 @@ It attempts to automate or speed up the process of accepting delivery offers.
 
 ## External Reference
 
-https://botgrabber.com/spark-bot
+https://sparkgrabber.com/
