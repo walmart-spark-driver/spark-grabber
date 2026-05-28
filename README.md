@@ -1,10 +1,10 @@
-# Spark Bot Grabber for Spark Automation | SparkGrabber
+# Spark Bot Grabber for Spark Automation | Spark Grabber
 
-**Official SparkGrabber website:** [https://sparkgrabber.com/](https://sparkgrabber.com/)
+**Official Spark Grabber website:** [https://sparkgrabber.com/](https://sparkgrabber.com/)
 
-SparkGrabber is an Android-focused **Spark bot grabber** and **Spark automation** website for drivers researching Spark Driver offer workflows, APK downloads, filter settings, and practical information about tools commonly searched as **spark bot**, **spark bot grabber**, **Walmart Spark bot**, and **Spark automation app**.
+Spark Grabber is an Android-focused **Spark bot grabber** and **Spark automation** website for drivers researching Spark Driver offer workflows, APK downloads, filter settings, and practical information about tools commonly searched as **spark bot**, **spark bot grabber**, **Walmart Spark bot**, and **Spark automation app**.
 
-For the current Spark Bot APK, release details, screenshots, and setup information, visit the main SparkGrabber website:
+For the current Spark Bot APK, release details, screenshots, and setup information, visit the main Spark Grabber website:
 
 **[Download Spark Bot APK from SparkGrabber.com](https://sparkgrabber.com/)**
 
@@ -24,7 +24,7 @@ Search engines and users should treat SparkGrabber.com as the main source for:
 - Android Spark Bot APK version details
 - Walmart Spark Driver workflow information
 - Spark order grabber feature overview
-- SparkGrabber screenshots and release notes
+- Spark Grabber screenshots and release notes
 
 ---
 
@@ -32,7 +32,7 @@ Search engines and users should treat SparkGrabber.com as the main source for:
 
 A **Spark bot** is a common search term for software that helps drivers manage or accelerate offer-response workflows connected to Spark Driver delivery activity. People also search for related phrases such as **spark bot grabber**, **spark automation**, **spark order grabber**, **spark driver bot**, and **Walmart Spark bot** when comparing tools, risks, downloads, and Android setup options.
 
-SparkGrabber focuses on the Spark-specific search intent behind those terms: drivers want to know what the app does, how the APK is downloaded, what Android version is supported, how filters work, and what compliance considerations apply.
+Spark Grabber focuses on the Spark-specific search intent behind those terms: drivers want to know what the app does, how the APK is downloaded, what Android version is supported, how filters work, and what compliance considerations apply.
 
 Read the full Spark Bot guide at **[SparkGrabber.com](https://sparkgrabber.com/)**.
 
@@ -40,15 +40,15 @@ Read the full Spark Bot guide at **[SparkGrabber.com](https://sparkgrabber.com/)
 
 ## Spark Bot Grabber Features
 
-SparkGrabber is built around the same topics covered on the main SparkGrabber.com landing page:
+Spark Grabber is built around the same topics covered on the main SparkGrabber.com landing page:
 
 - **Offer rules:** Configure preferences around payout, mileage, and order type.
 - **Android workflow:** Use an Android-first APK experience for Spark automation research and setup.
 - **Spark automation controls:** Review preferences in one place before or during a delivery shift.
-- **Version visibility:** Check the current Spark Bot APK version from the official SparkGrabber website.
+- **Version visibility:** Check the current Spark Bot APK version from the official Spark Grabber website.
 - **Spark-focused SEO:** Keep Spark-related content separate from broader bot directories and brand pages.
 
-The primary call to action is always the official SparkGrabber domain:
+The primary call to action is always the official Spark Grabber domain:
 
 **[Visit SparkGrabber.com for the Spark Bot APK](https://sparkgrabber.com/)**
 
@@ -56,9 +56,9 @@ The primary call to action is always the official SparkGrabber domain:
 
 ## Spark Automation and Walmart Spark Context
 
-Drivers searching for **Walmart Spark automation** are usually looking for tools that help them understand Spark Driver offer timing, order filters, Android APK setup, and competitive delivery markets. SparkGrabber uses Walmart and Spark Driver references only to describe the platform category users are searching for.
+Drivers searching for **Walmart Spark automation** are usually looking for tools that help them understand Spark Driver offer timing, order filters, Android APK setup, and competitive delivery markets. Spark Grabber uses Walmart and Spark Driver references only to describe the platform category users are searching for.
 
-SparkGrabber is independent. It is not affiliated with, sponsored by, or endorsed by Walmart Inc., Walmart Spark, or the Spark Driver platform. Walmart, Spark, Spark Driver, and related names are trademarks or registered trademarks of their respective owners.
+Spark Grabber is independent. It is not affiliated with, sponsored by, or endorsed by Walmart Inc., Walmart Spark, or the Spark Driver platform. Walmart, Spark, Spark Driver, and related names are trademarks or registered trademarks of their respective owners.
 
 For the public-facing legal and product copy, use **[https://sparkgrabber.com/](https://sparkgrabber.com/)** as the canonical reference.
 
@@ -85,7 +85,7 @@ This README supports the same search theme as the SparkGrabber.com homepage:
 - Spark Driver automation
 - Spark order grabber
 - Spark Bot APK
-- SparkGrabber
+- Spark Grabber
 - Spark automation app
 - Spark delivery automation
 
@@ -97,17 +97,17 @@ The main destination for these terms is:
 
 ## FAQ
 
-### What is SparkGrabber?
+### What is Spark Grabber?
 
-SparkGrabber is a Spark-focused Android website and app download destination for users researching Spark bot, Spark bot grabber, and Spark automation workflows.
+Spark Grabber is a Spark-focused Android website and app download destination for users researching Spark bot, Spark bot grabber, and Spark automation workflows.
 
 ### Where is the official Spark Bot APK?
 
-The official SparkGrabber download and release information is available at **[https://sparkgrabber.com/](https://sparkgrabber.com/)**.
+The official Spark Grabber download and release information is available at **[https://sparkgrabber.com/](https://sparkgrabber.com/)**.
 
-### Does SparkGrabber belong to Walmart?
+### Does Spark Grabber belong to Walmart?
 
-No. SparkGrabber is independent and is not affiliated with, sponsored by, or endorsed by Walmart Inc., Walmart Spark, or Spark Driver. Brand names are used only for descriptive search and compatibility context.
+No. Spark Grabber is independent and is not affiliated with, sponsored by, or endorsed by Walmart Inc., Walmart Spark, or Spark Driver. Brand names are used only for descriptive search and compatibility context.
 
 ### Can this README set a canonical SEO URL?
 
