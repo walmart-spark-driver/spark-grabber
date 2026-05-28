@@ -426,8 +426,10 @@ a {
 
 .video-wrapper {
     width: 100%;
-    max-width: 900px;
-    margin: 22px auto 0;
+    max-width: none;
+    /* allow full use of content width */
+    margin: 22px 0 0;
+    /* occupy full width of section */
     aspect-ratio: 16/9;
     background: #000;
     border-radius: 8px;
