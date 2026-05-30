@@ -1,12 +1,12 @@
 image: node:lts
 
 pages:
-stage: deploy
-script:
-- mkdir public
-- cp -r * public/ || true
-artifacts:
-paths:
-- public
-only:
-- main
+  stage: deploy
+  script:
+    - mkdir public
+    - cp -r * public/ || true
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
