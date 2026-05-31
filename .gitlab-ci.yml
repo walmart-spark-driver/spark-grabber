@@ -3,8 +3,8 @@ image: node:lts
 pages:
   stage: deploy
   script:
-    - mkdir public
-    - cp -r $(ls | grep -v '^public$') public/
+    - mkdir -p public
+    - find . -maxdepth 1 -mindepth 1 ! -name 'public' ! -name '.git' ! -name '.gitlab-ci.yml' -exec cp -r {} public/ \;
   artifacts:
     paths:
       - public
