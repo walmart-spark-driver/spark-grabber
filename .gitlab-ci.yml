@@ -4,7 +4,7 @@ pages:
   stage: deploy
   script:
     - mkdir public
-    - cp -r * public/ || true
+    - cp -r $(ls | grep -v '^public$') public/
   artifacts:
     paths:
       - public
