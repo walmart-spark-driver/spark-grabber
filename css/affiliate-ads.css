@@ -1,0 +1,779 @@
+/* =====================================================================
+   Affiliate Ads — Amazon recommended hardware for Spark Bot drivers
+   Designed to COMPLEMENT (not compete with) the app download CTA.
+   ===================================================================== */
+
+/* Bootstrap-lite grid stubs (SparkGrabber doesn't use Bootstrap) */
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+}
+
+.row.g-4 {
+    gap: 0;
+}
+
+.row.align-items-center {
+    align-items: center;
+}
+
+[class*="col-"] {
+    padding: 0 12px;
+    box-sizing: border-box;
+}
+
+.col-md-4 {
+    width: 100%;
+}
+
+.col-md-8 {
+    width: 100%;
+}
+
+.col-lg-5 {
+    width: 100%;
+}
+
+.col-lg-7 {
+    width: 100%;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+.h3 {
+    font-size: 1.5rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.gap-3 {
+    gap: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.p-4 {
+    padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        width: 33.3333%;
+    }
+
+    .col-md-8 {
+        width: 66.6667%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-5 {
+        width: 41.6667%;
+    }
+
+    .col-lg-7 {
+        width: 58.3333%;
+    }
+
+    .order-lg-1 {
+        order: 1;
+    }
+
+    .order-lg-2 {
+        order: 2;
+    }
+
+    .p-lg-5 {
+        padding: 3rem;
+    }
+}
+
+/* ---------- Shared ---------- */
+.aff-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 50px;
+}
+
+.aff-disclosure {
+    font-size: 0.72rem;
+    letter-spacing: 0.02em;
+    opacity: 0.7;
+}
+
+/* Star rating row */
+.aff-stars {
+    color: #ffc107;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+/* CTA shimmer effect shared by affiliate buttons */
+.aff-cta {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.aff-cta::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -120%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.55), transparent);
+    transform: skewX(-20deg);
+    animation: aff-shine 3.2s ease-in-out infinite;
+}
+
+.aff-cta:hover {
+    transform: translateY(-3px) scale(1.03);
+}
+
+@keyframes aff-shine {
+    0% {
+        left: -120%;
+    }
+
+    55% {
+        left: 130%;
+    }
+
+    100% {
+        left: 130%;
+    }
+}
+
+/* =====================================================================
+   PRIMARY AD — Samsung Galaxy S26 Ultra (recommended device → /device)
+   ===================================================================== */
+.aff-device-section {
+    position: relative;
+    padding: 70px 0;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 80% 12%, rgba(83, 130, 255, 0.28) 0%, rgba(83, 130, 255, 0) 48%),
+        radial-gradient(circle at 8% 90%, rgba(118, 75, 162, 0.30) 0%, rgba(118, 75, 162, 0) 46%),
+        linear-gradient(155deg, #06080f 0%, #0b1020 45%, #0a0f1e 100%);
+    color: #fff;
+}
+
+.aff-device-card {
+    position: relative;
+    border-radius: 28px;
+    padding: 36px;
+    background: linear-gradient(160deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.02) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(6px);
+}
+
+/* Eyebrow ties the device back to the app so it feels complementary */
+.aff-device-section .aff-eyebrow {
+    background: rgba(83, 130, 255, 0.18);
+    border: 1px solid rgba(83, 130, 255, 0.45);
+    color: #9cc0ff;
+}
+
+/* Rotating product image stack */
+.aff-device-stage {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    aspect-ratio: 1 / 1;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.aff-device-glow {
+    position: absolute;
+    inset: 6%;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(99, 140, 255, 0.55) 0%, rgba(118, 75, 162, 0.25) 45%, transparent 70%);
+    filter: blur(18px);
+    animation: aff-pulse-glow 4s ease-in-out infinite;
+    z-index: 0;
+}
+
+@keyframes aff-pulse-glow {
+
+    0%,
+    100% {
+        transform: scale(0.92);
+        opacity: 0.75;
+    }
+
+    50% {
+        transform: scale(1.06);
+        opacity: 1;
+    }
+}
+
+.aff-device-slide {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0.94);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+    z-index: 1;
+}
+
+.aff-device-slide.active {
+    opacity: 1;
+    transform: scale(1);
+    animation: aff-float 5s ease-in-out infinite;
+}
+
+.aff-device-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 22px 38px rgba(0, 0, 0, 0.55));
+}
+
+@keyframes aff-float {
+
+    0%,
+    100% {
+        transform: translateY(0) scale(1);
+    }
+
+    50% {
+        transform: translateY(-14px) scale(1.01);
+    }
+}
+
+/* Color swatch indicators */
+.aff-swatches {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.aff-swatch {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.35);
+    cursor: pointer;
+    padding: 0;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.aff-swatch:hover {
+    transform: scale(1.15);
+}
+
+.aff-swatch.active {
+    border-color: #fff;
+    box-shadow: 0 0 0 3px rgba(99, 140, 255, 0.55);
+}
+
+/* Rotating headline */
+.aff-device-headline {
+    font-size: clamp(1.6rem, 3vw, 2.3rem);
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    min-height: 2.4em;
+    text-align: center;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.aff-device-headline.swap {
+    opacity: 0;
+    transform: translateY(8px);
+}
+
+.aff-device-headline .accent {
+    background: linear-gradient(90deg, #6ea0ff, #b98bff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aff-spec-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin: 22px 0;
+}
+
+.aff-spec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    padding: 12px 14px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    font-size: 0.95rem;
+}
+
+.aff-spec i {
+    font-size: 1.3rem;
+    color: #6ea0ff;
+    flex-shrink: 0;
+}
+
+.aff-price-row {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+
+.aff-deal-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: linear-gradient(135deg, #ff9900, #ff6a00);
+    color: #1b1b1b;
+    font-weight: 800;
+    font-size: 0.85rem;
+    padding: 5px 14px;
+    border-radius: 50px;
+    animation: aff-badge-pulse 1.8s ease-in-out infinite;
+}
+
+@keyframes aff-badge-pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(255, 153, 0, 0.5);
+    }
+
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 8px rgba(255, 153, 0, 0);
+    }
+}
+
+.aff-device-cta {
+    background: linear-gradient(135deg, #ff9900 0%, #ff7a00 100%);
+    color: #1b1b1b;
+    padding: 16px 38px;
+    font-size: 1.15rem;
+    box-shadow: 0 12px 30px rgba(255, 138, 0, 0.45);
+}
+
+.aff-device-cta:hover {
+    color: #1b1b1b;
+}
+
+/* Center the conversion block (rating → badge → warranty → CTA → note).
+   On large screens it stays nicely centered under the left-aligned copy. */
+.aff-device-conversion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.aff-device-conversion .aff-disclosure {
+    max-width: 480px;
+}
+
+/* =====================================================================
+   SECONDARY AD — Car phone mounts / gear (→ /gear)
+   ===================================================================== */
+.aff-gear-section {
+    padding: 48px 0;
+}
+
+.aff-gear-card {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+    color: #fff;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.25);
+}
+
+.aff-gear-card::before {
+    content: '';
+    position: absolute;
+    top: -40%;
+    right: -10%;
+    width: 55%;
+    height: 180%;
+    background: radial-gradient(circle, rgba(255, 153, 0, 0.22) 0%, transparent 65%);
+}
+
+.aff-gear-eyebrow {
+    background: rgba(255, 153, 0, 0.18);
+    border: 1px solid rgba(255, 153, 0, 0.5);
+    color: #ffc266;
+}
+
+.aff-gear-stage {
+    position: relative;
+    display: block;
+    aspect-ratio: 1 / 1;
+    max-width: 280px;
+    margin: 0 auto;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.aff-gear-slide {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: translateX(24px) scale(0.96);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.aff-gear-slide.active {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+}
+
+.aff-gear-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 16px;
+    filter: drop-shadow(0 14px 26px rgba(0, 0, 0, 0.4));
+}
+
+.aff-gear-cta {
+    background: linear-gradient(135deg, #ff9900 0%, #ff7a00 100%);
+    color: #1b1b1b;
+    padding: 13px 30px;
+    font-size: 1.05rem;
+    box-shadow: 0 10px 24px rgba(255, 138, 0, 0.4);
+}
+
+.aff-gear-cta:hover {
+    color: #1b1b1b;
+}
+
+.aff-gear-perk {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.92rem;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.aff-gear-perk i {
+    color: #ffc266;
+}
+
+/* =====================================================================
+   SLIM BANNER ADS — compact inline strips placed between content
+   blocks. Small footprint so they never overshadow the APK download.
+   Variants: .aff-banner--device (→ /device) and .aff-banner--gear (→ /gear)
+   ===================================================================== */
+.aff-banner-wrap {
+    padding: 48px 0;
+    text-align: center;
+}
+
+.aff-banner {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 18px;
+    padding: 14px 22px;
+    border-radius: 18px;
+    color: #fff;
+    text-decoration: none;
+    overflow: hidden;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.aff-banner:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 38px rgba(0, 0, 0, 0.28);
+    color: #fff;
+}
+
+.aff-banner--device {
+    background: linear-gradient(120deg, #0b1530 0%, #16244f 55%, #243a73 100%);
+    border: 1px solid rgba(110, 160, 255, 0.35);
+}
+
+.aff-banner--gear {
+    background: linear-gradient(120deg, #1f2937 0%, #2a2118 60%, #4a3411 100%);
+    border: 1px solid rgba(255, 153, 0, 0.35);
+}
+
+/* =====================================================================
+   DELIVERY BAGS VARIANT — high-contrast, professional styling
+   ===================================================================== */
+.aff-banner--bags {
+    background: linear-gradient(120deg, #0b3b2a 0%, #0f5139 55%, #145a45 100%);
+    border: 1px solid rgba(20, 140, 95, 0.14);
+    color: #ffffff;
+    width: auto;
+    max-width: 920px;
+    box-sizing: border-box;
+}
+
+.aff-banner--bags .aff-banner-tag {
+    background: rgba(255, 255, 255, 0.04);
+    color: #bfeed9;
+}
+
+.aff-banner--bags .aff-banner-title .accent {
+    color: #bfeed9;
+}
+
+.aff-banner--bags .aff-banner-action {
+    background: linear-gradient(135deg, #16a34a 0%, #059669 100%);
+    color: #ffffff;
+}
+
+/* Rotating thumbnail */
+.aff-banner-thumb {
+    position: relative;
+    flex: 0 0 auto;
+    width: 110px;
+    height: 110px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.95);
+    overflow: hidden;
+}
+
+.aff-banner-thumb img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 8px;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.aff-banner-thumb img.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.aff-banner-body {
+    flex: 0 1 auto;
+    min-width: 0;
+}
+
+.aff-banner-tag {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 50px;
+    margin-bottom: 6px;
+}
+
+.aff-banner--device .aff-banner-tag {
+    background: rgba(110, 160, 255, 0.2);
+    color: #9cc0ff;
+}
+
+.aff-banner--gear .aff-banner-tag {
+    background: rgba(255, 153, 0, 0.2);
+    color: #ffc266;
+}
+
+.aff-banner-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 0;
+}
+
+.aff-banner-title .accent {
+    color: #ffc266;
+}
+
+.aff-banner--device .aff-banner-title .accent {
+    color: #9cc0ff;
+}
+
+.aff-banner-sub {
+    font-size: 0.95rem;
+    margin: 4px 0 0;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.aff-banner-action {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 700;
+    font-size: 1.05rem;
+    padding: 13px 26px;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #ff9900 0%, #ff7a00 100%);
+    color: #1b1b1b;
+    white-space: nowrap;
+}
+
+.aff-banner-stars {
+    color: #ffc107;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    margin-left: 8px;
+}
+
+@media (max-width: 575px) {
+    .aff-banner {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        gap: 12px;
+        padding: 18px;
+    }
+
+    .aff-banner-body {
+        flex-basis: 100%;
+    }
+
+    .aff-banner-action {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 991px) {
+    .aff-device-card {
+        padding: 28px 22px;
+    }
+
+    .aff-device-headline {
+        min-height: auto;
+        margin-top: 1rem;
+    }
+
+    .aff-device-stage {
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 575px) {
+    .aff-device-section {
+        padding: 50px 0;
+    }
+
+    .aff-spec-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .aff-device-cta,
+    .aff-gear-cta {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+
+    .aff-cta::after,
+    .aff-device-glow,
+    .aff-device-slide.active,
+    .aff-deal-badge {
+        animation: none !important;
+    }
+
+    .aff-banner-thumb img,
+    .aff-banner:hover {
+        transition: none !important;
+        transform: none !important;
+    }
+}
