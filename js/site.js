@@ -4,7 +4,7 @@ const versionTargets = [
 ].filter(Boolean);
 
 const apkSizeTarget = document.getElementById('apk-size');
-const apkDownloadUrl = 'https://media.githubusercontent.com/media/walmart-spark-driver/spark-grabber/main/download/spark-bot.apk';
+const apkDownloadUrl = '/download/spark-bot.apk';
 
 function formatBytes(bytes) {
     if (!Number.isFinite(bytes) || bytes <= 0) {
